@@ -1,8 +1,9 @@
 import React from 'react';
 import { Heart, Share2, MessageCircle, Eye, Clock, Flame } from 'lucide-react';
+import { PageType } from '../App';
 
 interface PhotoOfTheDayProps {
-  onNavigate?: (page: string) => void;
+  onNavigate?: (page: PageType) => void;
 }
 
 export function PhotoOfTheDaySection({ onNavigate }: PhotoOfTheDayProps) {
